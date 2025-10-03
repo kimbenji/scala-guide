@@ -69,4 +69,4 @@ titles_from_headings:
 # GitHub Pages settings
 github:
   is_project_page: true
-  repository_url: https://github.com/username/Write-Scala-Book
+  repository_url: https://github.com/kimbenji/scala-guide

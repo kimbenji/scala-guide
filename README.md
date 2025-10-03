@@ -2,7 +2,7 @@
 
 > Java 백엔드 개발자를 위한 Scala 2.12 기반 실무 가이드북
 
-[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://username.github.io/Write-Scala-Book/)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://kimbenji.github.io/scala-guide/)
 [![Scala](https://img.shields.io/badge/Scala-2.12-red)](https://www.scala-lang.org/)
 [![Spark](https://img.shields.io/badge/Spark-3.5.x-orange)](https://spark.apache.org/)
 
@@ -32,7 +32,7 @@
 
 **GitHub Pages로 웹사이트 형태로 읽기:**
 
-1. **메인 페이지 접속**: [https://username.github.io/Write-Scala-Book/](https://username.github.io/Write-Scala-Book/)
+1. **메인 페이지 접속**: [https://kimbenji.github.io/scala-guide/](https://kimbenji.github.io/scala-guide/)
 2. **목차에서 원하는 Part 선택**
 3. **챕터별로 순차 학습**
 
@@ -44,8 +44,8 @@
 
 ```bash
 # 저장소 클론
-git clone https://github.com/username/Write-Scala-Book.git
-cd Write-Scala-Book
+git clone https://github.com/kimbenji/scala-guide.git
+cd scala-guide
 
 # VS Code 또는 에디터로 열기
 code docs/
@@ -156,7 +156,7 @@ Write-Scala-Book/
 **Step 1: 문서 메인 페이지 열기**
 ```bash
 # 온라인
-https://username.github.io/Write-Scala-Book/
+https://kimbenji.github.io/scala-guide/
 
 # 또는 로컬
 open docs/README.md
@@ -327,8 +327,8 @@ git push origin feature/improvement
 
 프로젝트에 대한 질문이나 제안사항이 있으시면 언제든지 연락주세요!
 
-- **GitHub Issues**: [이슈 등록](https://github.com/username/Write-Scala-Book/issues)
-- **Discussions**: [토론 참여](https://github.com/username/Write-Scala-Book/discussions)
+- **GitHub Issues**: [이슈 등록](https://github.com/kimbenji/scala-guide/issues)
+- **Discussions**: [토론 참여](https://github.com/kimbenji/scala-guide/discussions)
 
 ---
 
