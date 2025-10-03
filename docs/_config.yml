@@ -1,0 +1,72 @@
+# Jekyll Configuration for GitHub Pages
+
+# Site settings
+title: Scala 학습 가이드
+description: Java 백엔드 개발자를 위한 Scala 2.12 기반 실무 가이드북
+author: BMad Master Agent
+language: ko
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+# Collections
+collections_dir: .
+
+# Exclude from processing
+exclude:
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bmad-core
+  - .bmad-creative-writing
+  - .claude
+  - .gemini
+  - .github
+  - .vscode
+  - code
+
+# Include
+include:
+  - _*.md
+  - README.md
+
+# Relative links
+relative_links:
+  enabled: true
+  collections: false
+
+# Optional front matter
+optional_front_matter:
+  remove_originals: false
+
+# Titles from headings
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false
+
+# GitHub Pages settings
+github:
+  is_project_page: true
+  repository_url: https://github.com/username/Write-Scala-Book
